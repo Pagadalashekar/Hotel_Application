@@ -25,6 +25,7 @@ namespace Hotel_Application
             Bill_Trans BTF = new Bill_Trans();
             BTF.BillNo = txtbillno.Text;
             BTF.Show();
+            //comment added
         }
 
         private void btnsave_Click(object sender, EventArgs e)
